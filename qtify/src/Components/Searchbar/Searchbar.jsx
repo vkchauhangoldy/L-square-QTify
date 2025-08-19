@@ -4,10 +4,9 @@ import "./Searchbar.css";
 const Searchbar = () => {
   return (
     <div className="searchbar">
-      <input type="text" placeholder="Search a album of your choice" />
+      <input type="text" placeholder="Search" />
       <button type="submit">
         <i className="fa-solid fa-magnifying-glass"></i>
-        Search
       </button>
     </div>
   );
