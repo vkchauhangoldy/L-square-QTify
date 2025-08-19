@@ -7,19 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CurrentAlbum from "./Pages/CurrentAlbum/CurrentAlbum";
 
 function App() {
-  // const [displayForm, setDisplayForm] = useState(false);
-
-  // const handleFormSubmit = () => {
-  //   // Perform your form submission logic here
-
-  //   // Once the form is submitted successfully, set displayForm to false
-  //   setDisplayForm(false);
-  // };
-
-  // const toggleFeedbackForm = () => {
-  //   setDisplayForm(!displayForm);
-  // };
-
   return (
     <div>
       <Navbar />
