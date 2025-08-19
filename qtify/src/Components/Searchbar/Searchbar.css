@@ -1,0 +1,42 @@
+.searchbar {
+    display: flex;
+    height: 48px;
+    width: 50vw;
+    border: 1px black;
+}
+
+.searchbar input {
+    /* height: 48px; */
+    /* width: 568px; */
+    flex: 1;
+    border-radius: 12px 0 0 12px;
+    border: gray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.searchbar button {
+    height: 48px;
+    width: 66px;
+    border: 1px solid black;
+    border-radius:0 12px 12px 0;
+    cursor: pointer;
+
+}
+
+.searchbar button icon {
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width: 577px){
+    
+    .searchbar {
+        width: 70vw;
+    }
+
+    .searchbar input {
+        width: 500px;
+        padding: 0;
+    }
+}

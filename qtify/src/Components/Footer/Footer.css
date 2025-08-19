@@ -1,0 +1,50 @@
+.footer {
+    width: 100vw;
+    height: 345px;
+    border-radius: 0px, 0px, 10px, 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.accordion {
+    width: 70%;
+    border-radius: 12px;
+}
+
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root {
+    border: solid 1px var(--css-white) !important;
+    background-color: #000 !important;   
+    overflow: hidden !important;
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+    background-color: var(--css-white);
+}
+
+.details {
+    background: var(--css-white);
+    color: var(--css-black);
+}
+
+
+.css-v84d5j-MuiSvgIcon-root {
+    color: var(--css-primary);
+    width: 30px !important;
+    height: 30px !important ;
+    
+}
+
+
+.css-78njj9 {
+    border-radius: 12px !important;
+    background-color: #000 !important;
+}
+
+.css-3vmltg {
+    color: var(--css-primary);
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,36 @@
+.feedback {
+    height: 47px;
+    width: 13vw;
+    text-align: center;
+    background: var(--css-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    position: relative;
+    border: 1px;
+    /* padding: 10px 16px 10px 16px; */
+    margin-right: 3vw;
+    cursor: pointer;
+
+}
+
+.feedback h3 {
+    font-family: Poppins;
+    font-size: 15px;
+    color: var(--css-primary);
+    position: relative;
+    left: 20px;
+}
+
+
+
+@media (max-width: 576px) {
+
+    /* Styles for extra small screens */
+    .feedback {
+        display: none;
+    }
+}
+
+

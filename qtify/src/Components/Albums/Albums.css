@@ -1,0 +1,15 @@
+.albums {
+    /* height: 848px; */
+    /* border: solid yellow; */
+    padding:0 40px 0 40px;
+    
+}
+
+.gap {
+    margin-top: 30px;
+}
+
+.collapse {
+    color: var(--css-primary);
+
+}

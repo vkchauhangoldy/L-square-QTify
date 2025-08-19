@@ -1,0 +1,34 @@
+/* MusicPlayer.css */
+
+/* .musicplayer {
+    height: 130px;
+    border: solid ;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    
+} */
+
+.musicimage {
+    width: 110.85px;
+    height: 100px;
+    top: 2070px;
+    left: 32px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    
+}
+.slide {
+    color: var(--css-primary) !important; 
+    
+}
+
+.css-14pt78w-MuiSlider-rail {
+    background: var(--css-white) !important;
+}
+
+.css-1dvzci1 {
+    color: var(--css-white) !important;
+}

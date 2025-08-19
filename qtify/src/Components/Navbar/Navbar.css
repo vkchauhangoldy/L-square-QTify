@@ -1,0 +1,19 @@
+.navbar {
+    height: 74px;
+    width: 100vw;
+    background-color: var(--css-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logo {
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+
+
+.collapse {
+    cursor: pointer;
+}

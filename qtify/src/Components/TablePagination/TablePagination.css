@@ -1,0 +1,52 @@
+.tablePagination {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.tablePagination .css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+
+    background: var(--css-primary);
+    color: var(--css-black);
+}
+
+.tablePagination .css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+    background: #34c94a !important;
+    transform: scale(1.1);
+}
+
+.tablePagination .css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root {
+    color: var(--css-white);
+}
+
+.tablePagination .css-1v2lvtn-MuiPaginationItem-root {
+
+    color: var(--css-white);
+}
+
+
+.tablePagination .css-1omp2b7.Mui-selected {
+    background: var(--css-primary);
+    color: var(--css-black);
+}
+
+.tablePagination .css-1omp2b7.Mui-selected:hover {
+    background: #34c94a !important;
+    transform: scale(1.1);
+}
+
+.tablePagination .css-1omp2b7 {
+    color: var(--css-white);
+}
+
+.tablePagination .css-16y9h98 {
+    color: var(--css-white);
+}
+
+
+@media (max-width: 682px) {
+    .tablePagination {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

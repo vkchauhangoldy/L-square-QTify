@@ -1,0 +1,35 @@
+.albumTable {
+    margin: 52px;
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    
+}
+
+th {
+    text-align: start;
+  
+}
+
+td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+  }
+  
+  .albumTable tr {
+    margin-bottom: 90px; 
+}
+
+
+@media (max-width: 682px) {
+
+    .albumTable {
+        margin: auto;
+    }
+}
