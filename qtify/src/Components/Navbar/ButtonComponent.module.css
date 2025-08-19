@@ -1,0 +1,22 @@
+/* src/components/Button/CustomButton.module.css */
+:root {
+    --green: #34C94B;
+  --black: #121212;
+  --white: #FFFFFF;
+  }
+  
+  .button {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black);
+    color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  

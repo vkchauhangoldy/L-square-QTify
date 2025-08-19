@@ -1,0 +1,43 @@
+.section{
+    margin: 24px 0px;
+    padding: 0 16px;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.title {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.grid{
+    display:flex;
+    gap:16px;
+    margin-bottom: 16px;
+}
+.scroll{
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory;
+    
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll > *{
+    flex: 0 0 auto;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+}

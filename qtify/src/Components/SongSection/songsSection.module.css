@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 24px;
+  
+}
+
+.tabsContainer {
+  margin-bottom: 16px;
+}
+
+.tabs {
+  min-height: 48px;
+}
+
+.tab {
+  color:#FFFFFF !important;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 14px;
+  margin-right: 12px;
+}
